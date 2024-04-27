@@ -1,0 +1,150 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+label {
+  margin: 10px 0;
+  color: #fff;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+button {
+  width: 125px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: #1c1c1c;
+  font-weight: bold;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4aa0d1;
+}
+
+.success-message {
+  color: #61dafb;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.channels {
+  margin: 1% auto;
+  padding: 0 1rem;
+}
+
+.channels table {
+  margin: 1% auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.channels th,
+.channels td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #61dafb;
+}
+
+.channels th {
+  background-color: #61dafb;
+  color: #1c1c1c;
+}
+
+.open-channel-form,
+.add-peer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.open-channel-form input,
+.add-peer-form input {
+  margin-bottom: 10px;
+}
+
+.open-channel-form button,
+.add-peer-form button {
+  margin-top: 10px;
+}
+
+.lightning-wallet {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #282c34;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.balance {
+  margin-bottom: 20px;
+}
+
+.balance h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #61dafb;
+}
+
+.balance p {
+  font-size: 24px;
+  color: #fff;
+}
+
+.wallet-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.invoice-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.invoice-form input {
+  margin-bottom: 10px;
+}
+
+.invoice-form button {
+  margin-top: 10px;
+}
+
+.peers {
+  margin: 1% auto;
+  padding: 0 1rem;
+}
+
+.peers table {
+  margin: 1% auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.peers th,
+.peers td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #61dafb;
+}
+
+.peers th {
+  background-color: #61dafb;
+  color: #1c1c1c;
+}
